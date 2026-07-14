@@ -57,6 +57,20 @@ symptom_of(typhoid, prolonged_fever).
 symptom_of(typhoid, stomach_pain).
 symptom_of(typhoid, weakness).
 symptom_of(typhoid, headache).
+symptom_of(chickenpox, itchy_rash).
+symptom_of(chickenpox, fever).
+symptom_of(chickenpox, fatigue).
+symptom_of(chickenpox, loss_of_appetite).
+
+symptom_of(migraine, severe_headache).
+symptom_of(migraine, nausea).
+symptom_of(migraine, sensitivity_to_light).
+symptom_of(migraine, blurred_vision).
+
+symptom_of(food_poisoning, vomiting).
+symptom_of(food_poisoning, stomach_pain).
+symptom_of(food_poisoning, diarrhea).
+symptom_of(food_poisoning, fever).
 
 
 % ---------- Treatments ----------
@@ -68,6 +82,9 @@ treatment(dengue, 'Fluid therapy and platelet monitoring').
 treatment(covid_19, 'Isolation and oxygen support').
 treatment(tuberculosis, 'Long-term antibiotics').
 treatment(typhoid, 'Antibiotics and fluid therapy').
+treatment(chickenpox, 'Antihistamines and calamine lotion for itching').
+treatment(migraine, 'Pain relievers and rest in a dark room').
+treatment(food_poisoning, 'Fluid replacement and rest').
 treatment(heatstroke, 'Immediate cooling and IV fluids').
 treatment(hypothermia, 'Gradual warming treatment').
 treatment(diabetes_type_2, 'Insulin, diet control').
@@ -82,6 +99,9 @@ risk_level(malaria, high).
 risk_level(dengue, high).
 risk_level(covid_19, high).
 risk_level(typhoid, high).
+risk_level(chickenpox, moderate).
+risk_level(migraine, low).
+risk_level(food_poisoning, moderate).
 risk_level(tuberculosis, high).
 risk_level(heatstroke, critical).
 risk_level(hypothermia, critical).
