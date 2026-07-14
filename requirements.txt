@@ -4,6 +4,6 @@ pandas
 pydeck
 geopy
 scikit-learn
-opencv-python
+opencv-python-headless
 textblob
 networkx
