@@ -53,6 +53,10 @@ symptom_of(diabetes_type_2, blurred_vision).
 symptom_of(hypertension, severe_headache).
 symptom_of(hypertension, chest_pain).
 symptom_of(hypertension, shortness_of_breath).
+symptom_of(typhoid, prolonged_fever).
+symptom_of(typhoid, stomach_pain).
+symptom_of(typhoid, weakness).
+symptom_of(typhoid, headache).
 
 
 % ---------- Treatments ----------
@@ -63,6 +67,7 @@ treatment(malaria, 'Immediate antimalarial drugs').
 treatment(dengue, 'Fluid therapy and platelet monitoring').
 treatment(covid_19, 'Isolation and oxygen support').
 treatment(tuberculosis, 'Long-term antibiotics').
+treatment(typhoid, 'Antibiotics and fluid therapy').
 treatment(heatstroke, 'Immediate cooling and IV fluids').
 treatment(hypothermia, 'Gradual warming treatment').
 treatment(diabetes_type_2, 'Insulin, diet control').
@@ -76,6 +81,7 @@ risk_level(common_cold, low).
 risk_level(malaria, high).
 risk_level(dengue, high).
 risk_level(covid_19, high).
+risk_level(typhoid, high).
 risk_level(tuberculosis, high).
 risk_level(heatstroke, critical).
 risk_level(hypothermia, critical).
