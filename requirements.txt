@@ -1,0 +1,9 @@
+streamlit
+pyswip
+pandas
+pydeck
+geopy
+scikit-learn
+opencv-python
+textblob
+networkx
